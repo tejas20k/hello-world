@@ -1,0 +1,162 @@
+
+Q. choose the correct statements for running the jenkins server
+	java -jar jenkins.war
+	deploy war in tomcat and run the server
+	deploy war in jboss and run the server
+	none of above
+	
+	answer: 1,2,3
+	
+
+Q. Choose the wrong menu item while creating jenkins job
+	1. freestyle software
+	2. maven
+	3. monitor an external job
+	4. multiconfiguration job
+	5. none of the above
+	
+	Answer: none of the above
+	
+Q. Jenkins uses security realms for user and group authentications. choose crrect realms from below:
+	jenkins build in database
+	ldap
+	microsoft active directory
+	unix users and groups
+	all of above
+	
+	answer: All of above
+	
+Q. Jenkins creates HOME directory by default. chose correct statement for home dir creation:
+	jenkins home dir will be called .jenkins and will be created in your home dir
+	jenkins can use different home dir by defining the JENKINS_HOME env var
+	both A & B
+	none of above
+	
+	answer: both A&B
+	
+Q. incorrect statement for copy jenkins job from one server to another:
+	
+	answer: make a copy of an existing job by NOT making a clone of job directory
+	
+Q. Useful plugins in jenkins:
+	maven 2 project
+	copy artifact
+	join
+	code formatter plugins
+	none of above
+	
+	answer: all
+	
+Q. choose the correct way to import new plugins into jenkins
+	copy the .hpi files to WEB-INF/plugins folder and restart
+	import plugin files using jenkins user interface
+	both A&B
+	none of above
+	
+	answer: both A&B
+	
+Q. various  ways in which build can be scheduled in jenkins
+	probable answer: all of the above
+	
+Q. jenkins does not provide console output to find build failures
+	answer: False
+	
+Q. What is continuous integration?
+	answer: Maintain code repository, automate the build, make the build self testing, automate deployment
+	
+Q. what is the requirement for using jenkins
+	
+Q. is jenkins have a capability to nitification mechanism?
+	answer: TRUE
+	
+Q. jenkins does not support all build tools like maven, ant?
+	False
+
+Q. to integrate ldap jenkins required special plugins
+	TRUE
+	
+Q. jenkins supports the automatic building and testing of android applications
+	TRUE
+
+Q. hudson was earlier name and version of current jenkins
+	TRUE
+	
+Q. is the below steps are correct to create new jenkins job:
+	TRUE
+	
+Q. is jenkins going to be backward compatible with my hudson
+	False
+	
+Q. jenkins supports the git version control system via a plugin
+	TRUE
+	
+Q. choose correct statements on continuous integration success
+	more steps means more stability
+	more steps might make it take more time but results in more stable applications
+	one option to reduce time taken and ensure we have immediate feedback
+	less steps means more stability
+	
+	anser: first 3 statements
+	
+Q. following statements are NOT correct irrespective of polling the scm:
+	if any changes have been made to source code in the project, jenkins kicks off a build
+	polling involves asking the version control sever at regular intervals if any changes have been commited
+	polling is costliest operation so we should not use polling in jenkins
+	polling is usually a relatively cheap operation, so you can poll frequently
+	
+	answer: polling is usually a relatively cheap operation, so you can poll frequently
+
+Q. which scm tools jenkins support:
+	cvs, git
+	maven, ant
+	does not support scm tools
+	accurev, cvs , subversion, git, mercurial, perforce, clearcase
+	
+	answer: accurev, cvs , subversion, git, mercurial, perforce, clearcase
+	
+Q. what type of security jenkins provide for authorization
+	matrix based
+	project based
+	role based
+	all of above
+	
+	answer: all of above
+	
+Q. command to start jenkins manually
+	(jenkins_url)/start
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	
